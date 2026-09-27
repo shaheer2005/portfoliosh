@@ -1,0 +1,51 @@
+Shaheer Hassan
+Full-Stack Web Developer
+Email: hshaheer40@gmail.com
+Phone: +92 320 8644283
+LinkedIn: https://www.linkedin.com/in/shaheer-hassan-khan-2567a6385
+GitHub: https://github.com/shaheer2005
+
+SUMMARY
+Experienced Full-Stack Web Developer with expertise in MERN stack and Python/Django. Skilled in building scalable web applications, RESTful APIs, database design (PostgreSQL, MongoDB), and deploying production-ready systems. Strong background in architecting maintainable code and delivering business-aligned solutions.
+
+TECHNICAL SKILLS
+- Languages: JavaScript (ES6+), Python
+- Frontend: React, HTML5, CSS3, Tailwind CSS
+- Backend: Node.js, Express, Django, REST API design
+- Databases: PostgreSQL, MongoDB
+- Tools: Git, GitHub, VS Code, Postman, Vercel
+- Deployment: Docker, CI/CD, Vercel/Heroku
+
+EXPERIENCE
+Full-Stack Web Developer — Freelance / Personal Projects
+- Built multiple end-to-end web applications from database schema to deployed UI.
+- Designed and implemented RESTful APIs consumed by admin dashboards and public clients.
+- Implemented authentication, authorization, and role-based access controls.
+- Managed deployments and environment configuration for production releases.
+
+PROJECTS
+Bank Management System (Django, PostgreSQL)
+- Developed secure banking platform with customer accounts, transactions, and admin dashboard.
+- Implemented transaction history, deposits/withdrawals, and role-based access.
+- Repo: https://github.com/shaheer2005/bms
+
+Learning Management System (Django, JS, Ajax)
+- Built dual-portal platform for students and teachers with attendance, results, and course management.
+- Repo: https://github.com/shaheer2005/lms
+
+Hospital Management System (Django, PostgreSQL)
+- Created records and scheduling system including appointments, billing, and patient history.
+- Repo: https://github.com/shaheer2005/hms
+
+E-Commerce Store (MERN Stack)
+- Implemented storefront, cart, checkout flow, user accounts, and admin inventory dashboard.
+- Repo: https://github.com/shaheer2005/ecommerce
+
+EDUCATION
+- Relevant coursework or degree (add if desired)
+
+CERTIFICATIONS
+- (Add certifications here if any)
+
+REFERENCES
+Available on request

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shaheer Hassan — Full-Stack Web Developer</title>
+<meta name="description" content="Shaheer Hassan is a Full-Stack Web Developer specializing in the MERN Stack and Python Django, building scalable web applications and business solutions.">
+<meta name="keywords" content="Shaheer Hassan, Full-Stack Developer, MERN Stack, Django, React Developer, Python Developer, Web Developer Portfolio">
+<meta name="author" content="Shaheer Hassan">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Shaheer Hassan — Full-Stack Web Developer">
+<meta property="og:description" content="MERN Stack & Django developer building scalable web applications and business solutions.">
+<meta property="og:image" content="assets/og-image.jpg">
+<meta property="og:url" content="https://shaheerhassan.dev">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230A0A0A'/%3E%3Ctext x='50' y='68' font-size='58' font-family='monospace' font-weight='bold' fill='%23FACC15' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader">
+  <div class="loader-mark">
+    <span>&lt;</span>SH<span>/&gt;</span>
+  </div>
+  <div class="loader-bar"><div class="loader-fill"></div></div>
+</div>
+
+<!-- Scroll progress -->
+<div id="scroll-progress"></div>
+
+<!-- Floating social removed; icons moved to footer -->
+
+<!-- Nav -->
+<header id="site-header">
+  <nav class="nav-wrap">
+    <a href="#hero" class="nav-logo">SH<span>.</span></a>
+    <button id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul id="nav-links">
+      <li><a href="#about" data-nav>About</a></li>
+      <li><a href="#skills" data-nav>Skills</a></li>
+      <li><a href="#experience" data-nav>Experience</a></li>
+      <li><a href="#projects" data-nav>Projects</a></li>
+      <li><a href="#contact" data-nav class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="hero-kicker">$ whoami</p>
+        <h1>Shaheer Hassan builds web products that hold up in production.</h1>
+        <p class="hero-role"><span id="typed-role"></span><span class="cursor">|</span></p>
+        <p class="hero-desc">A full-stack developer working across the MERN stack and Python/Django — from database schema to deployed interface, with nothing skipped in between.</p>
+        <div class="hero-stack">
+          <span>MERN Stack</span><span>Python</span><span>Django</span><span>REST APIs</span><span>MongoDB</span><span>PostgreSQL</span>
+        </div>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-ghost">Hire Me</a>
+          <a href="#" id="resume-btn" class="btn btn-ghost">Resume</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="code-window">
+          <div class="code-titlebar">
+            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            <span class="code-filename">developer.py</span>
+          </div>
+          <pre class="code-body"><code><span class="tok-kw">class</span> <span class="tok-cls">Developer</span>:
+    <span class="tok-kw">def</span> <span class="tok-fn">__init__</span>(<span class="tok-var">self</span>):
+        <span class="tok-var">self</span>.name = <span class="tok-str">"Shaheer Hassan"</span>
+        <span class="tok-var">self</span>.stack = [
+            <span class="tok-str">"React"</span>, <span class="tok-str">"Node.js"</span>,
+            <span class="tok-str">"Django"</span>, <span class="tok-str">"PostgreSQL"</span>
+        ]
+        <span class="tok-var">self</span>.status = <span class="tok-str">"open_to_work"</span>
+
+    <span class="tok-kw">def</span> <span class="tok-fn">ship</span>(<span class="tok-var">self</span>, <span class="tok-var">idea</span>):
+        <span class="tok-kw">return</span> <span class="tok-fn">deploy</span>(<span class="tok-var">idea</span>)<span class="type-cursor">▌</span></code></pre>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Scroll to content"><span></span></a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-inner about-grid">
+      <div class="section-head">
+        <p class="section-label">$ cat about.md</p>
+        <h2>Software that fits the business it's built for.</h2>
+      </div>
+      <div class="about-body">
+        <p>I build scalable web applications, internal business tools, and modern customer-facing websites — end to end. That means designing the database, writing the API, and building an interface people actually enjoy using, not just handing off a piece of the puzzle.</p>
+        <p>My work spans the MERN stack for fast, interactive products and Python/Django for applications that need structure, security, and long-term maintainability — accounting systems, patient records, learning platforms, and storefronts among them.</p>
+        <div class="about-availability">
+          <div class="avail-item"><span class="dot-live"></span>Full-time opportunities</div>
+          <div class="avail-item"><span class="dot-live"></span>Freelance projects</div>
+          <div class="avail-item"><span class="dot-live"></span>Remote work</div>
+        </div>
+        <div class="about-counters">
+          <div class="counter-card">
+            <span class="counter" data-target="4">0</span>
+            <p>Major applications built</p>
+          </div>
+          <div class="counter-card">
+            <span class="counter" data-target="2">0</span>
+            <p>Core stacks mastered</p>
+          </div>
+          <div class="counter-card">
+            <span class="counter" data-target="100">0</span><span class="counter-suffix">%</span>
+            <p>Projects self-deployed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-inner">
+      <div class="section-head">
+        <p class="section-label">$ ls skills/</p>
+        <h2>The toolkit, by layer.</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Frontend</h3>
+          <ul>
+            <li><span>HTML</span><div class="bar"><i style="--w:95%"></i></div></li>
+            <li><span>CSS</span><div class="bar"><i style="--w:92%"></i></div></li>
+            <li><span>JavaScript</span><div class="bar"><i style="--w:90%"></i></div></li>
+            <li><span>React</span><div class="bar"><i style="--w:88%"></i></div></li>
+            <li><span>Tailwind CSS</span><div class="bar"><i style="--w:85%"></i></div></li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Backend</h3>
+          <ul>
+            <li><span>Node.js</span><div class="bar"><i style="--w:88%"></i></div></li>
+            <li><span>Express</span><div class="bar"><i style="--w:86%"></i></div></li>
+            <li><span>Python</span><div class="bar"><i style="--w:92%"></i></div></li>
+            <li><span>Django</span><div class="bar"><i style="--w:90%"></i></div></li>
+            <li><span>REST APIs</span><div class="bar"><i style="--w:90%"></i></div></li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Database</h3>
+          <ul>
+            <li><span>MongoDB</span><div class="bar"><i style="--w:85%"></i></div></li>
+            <li><span>PostgreSQL</span><div class="bar"><i style="--w:87%"></i></div></li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <ul>
+            <li><span>Git &amp; GitHub</span><div class="bar"><i style="--w:90%"></i></div></li>
+            <li><span>VS Code</span><div class="bar"><i style="--w:95%"></i></div></li>
+            <li><span>Postman</span><div class="bar"><i style="--w:85%"></i></div></li>
+            <li><span>Vercel</span><div class="bar"><i style="--w:88%"></i></div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-inner">
+      <div class="section-head">
+        <p class="section-label">$ git log --author=shaheer</p>
+        <h2>Where the work has gone.</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Full-Stack Web Developer</h3>
+            <p class="timeline-sub">Freelance &amp; Personal Projects</p>
+            <ul>
+              <li>Built complete web applications from database schema through deployed UI</li>
+              <li>Designed and shipped REST APIs powering both admin dashboards and public-facing apps</li>
+              <li>Modeled relational and document databases for systems handling accounts, records, and transactions</li>
+              <li>Implemented authentication and role-based access across multiple applications</li>
+              <li>Delivered responsive, accessible interfaces tested across devices</li>
+              <li>Handled deployment and environment configuration for production releases</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-inner">
+      <div class="section-head">
+        <p class="section-label">$ ls projects/ --featured</p>
+        <h2>Four systems, four different problems.</h2>
+      </div>
+        <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-thumb" data-project="bank">
+            <img src="assets/download.jpg" alt="Bank Management thumbnail">
+            <span class="thumb-tag">Django · PostgreSQL</span>
+          </div>
+          <div class="project-body">
+            <h3>Bank Management System</h3>
+            <p>A secure banking platform handling customer accounts, deposits, withdrawals, and full transaction history behind an authenticated admin dashboard.</p>
+            <ul class="feature-tags">
+              <li>Customer accounts</li><li>Deposits &amp; withdrawals</li><li>Transaction history</li><li>Admin dashboard</li><li>Secure auth</li>
+            </ul>
+                <div class="project-links">
+                  <a href="https://github.com/shaheer2005/bms" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">GitHub</a>
+                </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb" data-project="lms">
+            <img src="assets/lms.jpg" alt="Learning Management thumbnail">
+            <span class="thumb-tag">Django · JS · Ajax</span>
+          </div>
+          <div class="project-body">
+            <h3>Learning Management System</h3>
+            <p>A dual-portal platform for students and teachers covering attendance, results, course management, and scholarship requests.</p>
+            <ul class="feature-tags">
+              <li>Student portal</li><li>Teacher dashboard</li><li>Attendance</li><li>Results</li><li>Scholarship requests</li>
+            </ul>
+            <div class="project-links">
+              <!-- thumbnail kept above; image element duplicated removed -->
+              <a href="https://github.com/shaheer2005/lms" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb" data-project="hospital">
+            <img src="assets/hms.jpg" alt="Hospital System thumbnail">
+            <span class="thumb-tag">Django · PostgreSQL</span>
+          </div>
+          <div class="project-body">
+            <h3>Hospital Management System</h3>
+            <p>A records and scheduling system for patient history, doctor appointments, and billing, run through a centralized admin panel.</p>
+            <ul class="feature-tags">
+              <li>Patient records</li><li>Appointments</li><li>Billing</li><li>Medical history</li><li>Admin panel</li>
+            </ul>
+            <div class="project-links">
+              <!-- thumbnail kept above; image element duplicated removed -->
+              <a href="https://github.com/shaheer2005/hms" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb" data-project="ecommerce">
+            <img src="assets/ecome.jpg" alt="Ecommerce thumbnail">
+            <span class="thumb-tag">MERN Stack</span>
+          </div>
+          <div class="project-body">
+            <h3>E-Commerce Store</h3>
+            <p>A full storefront with a product catalog, cart, and checkout flow, backed by user accounts and an admin dashboard for inventory.</p>
+            <ul class="feature-tags">
+              <li>Product catalog</li><li>Shopping cart</li><li>Checkout</li><li>User auth</li><li>Admin dashboard</li>
+            </ul>
+            <div class="project-links">
+              <!-- thumbnail kept above; image element duplicated removed -->
+              <a href="https://github.com/shaheer2005/ecommerce" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY HIRE ME -->
+  <section id="why-hire">
+    <div class="section-inner">
+      <div class="section-head">
+        <p class="section-label">$ ./why_me.sh</p>
+        <h2>What that means for you.</h2>
+      </div>
+      <div class="hire-grid">
+        <div class="hire-card"><h3>Clean Code</h3><p>Readable, maintainable code that the next developer — or you, six months later — can actually work with.</p></div>
+        <div class="hire-card"><h3>Scalable Architecture</h3><p>Systems designed to handle more users and more features without a rewrite.</p></div>
+        <div class="hire-card"><h3>Responsive Design</h3><p>One codebase, tested and tuned across phones, tablets, and desktops.</p></div>
+        <div class="hire-card"><h3>Fast Delivery</h3><p>Clear milestones and working builds early, not a single reveal at the end.</p></div>
+        <div class="hire-card"><h3>Problem Solving</h3><p>Comfortable untangling ambiguous requirements into a working technical plan.</p></div>
+        <div class="hire-card"><h3>API Development</h3><p>Well-documented REST APIs built to be consumed by more than one client.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials removed — streamlined portfolio -->
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-inner contact-grid">
+      <div class="section-head">
+        <p class="section-label">$ send --message</p>
+        <h2>Start a project, or just say hello.</h2>
+        <p class="contact-sub">Fill in the form and it lands straight in my inbox. If you'd rather talk it through, continue the conversation on WhatsApp after sending.</p>
+        <div class="contact-direct">
+          <a href="mailto:hshaheer40@gmail.com">hshaheer40@gmail.com</a>
+          <a href="https://wa.me/923208644283" target="_blank" rel="noopener">+92 320 8644283</a>
+        </div>
+      </div>
+
+      <form id="contact-form" novalidate>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="from_name" required>
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="from_email" required>
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block" id="submit-btn">Send Message</button>
+        <p id="form-status" role="status"></p>
+        <a id="whatsapp-continue" class="btn btn-ghost btn-block" href="#" target="_blank" rel="noopener" hidden>Continue on WhatsApp</a>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer id="site-footer">
+  <div class="footer-inner">
+    <a href="#hero" class="nav-logo">SH<span>.</span></a>
+    <div class="footer-links">
+        <a href="https://github.com/shaheer2005" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-1.94c-3.2.7-3.87-1.54-3.87-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.8 1.18 1.83 1.18 3.09 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.08.78 2.17v3.21c0 .3.21.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/shaheer-hassan-khan-2567a6385" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+          LinkedIn
+        </a>
+        <a href="mailto:hshaheer40@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13zm2.2.5 7.3 5.47a1 1 0 0 0 1 0L19.8 6H4.2zM20 7.9l-6.94 5.2a3 3 0 0 1-3.12 0L4 7.9V18h16V7.9z"/></svg>
+          Email
+        </a>
+      <a href="https://wa.me/923208644283" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M17.47 14.38c-.28-.14-1.64-.81-1.9-.9-.25-.1-.44-.14-.62.14-.19.28-.72.9-.88 1.08-.16.19-.32.21-.6.07-.28-.14-1.18-.44-2.24-1.39-.83-.74-1.39-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.13-.13.28-.33.42-.5.14-.16.19-.28.28-.47.1-.19.05-.35-.02-.5-.07-.14-.62-1.5-.85-2.06-.22-.53-.45-.46-.62-.47h-.53c-.19 0-.5.07-.76.35-.26.28-1 .98-1 2.4 0 1.4 1.03 2.76 1.17 2.95.14.19 2.03 3.1 4.92 4.34.69.3 1.22.47 1.64.6.69.22 1.32.19 1.82.11.55-.08 1.64-.67 1.87-1.32.23-.65.23-1.2.16-1.32-.07-.12-.25-.19-.53-.33z"/><path fill="currentColor" d="M12.02 2C6.5 2 2.04 6.46 2.04 12c0 1.85.5 3.58 1.35 5.07L2 22l5.06-1.33A9.94 9.94 0 0 0 12.02 22C17.55 22 22 17.54 22 12S17.55 2 12.02 2zm0 18.1c-1.67 0-3.22-.49-4.53-1.32l-.32-.2-3 .79.8-2.93-.21-.3a8.08 8.08 0 0 1-1.24-4.14c0-4.47 3.64-8.1 8.1-8.1a8.05 8.05 0 0 1 8.1 8.1c0 4.47-3.63 8.1-8.1 8.1z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+    <p class="footer-copy">© 2026 Shaheer Hassan</p>
+  </div>
+</footer>
+
+<button id="back-to-top" aria-label="Back to top">↑</button>
+
+<!-- EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<!-- jsPDF for client-side PDF generation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
